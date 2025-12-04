@@ -1,0 +1,76 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+
+DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Environment variables
+.env
+.env.*
+*.secret
+*.credentials
+
+# Flask / SQLAlchemy
+instance/
+*.db
+*.sqlite3
+items.db
+
+# pytest cache
+.pytest_cache/
+.cache/
+
+# MyPy / type-check caches
+.mypy_cache/
+.dmypy.json
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# macOS system files
+.DS_Store
+
+# Python egg metadata
+*.egg-info/
+.eggs/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Byte-compiled / temporary editors swap
+*~
+*.swp
+*.swo
+
+# Packaging
+*.tar.gz
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node (if needed)
+node_modules/
